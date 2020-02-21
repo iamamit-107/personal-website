@@ -1,0 +1,132 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+section {
+  height: 600px;
+  overflow: hidden;
+}
+
+.text {
+  padding-top: 5%;
+}
+
+.header-part {
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.half-width {
+  width: 35%;
+  margin-left: 10%;
+  padding-left: 2%;
+  float: left;
+}
+.half-width img {
+  width: 100%;
+}
+
+.half-width h1 {
+  font-size: 40px;
+}
+.half-width p {
+  margin-bottom: 35px;
+}
+.color-text {
+  font-size: 50px;
+  color: deeppink;
+}
+.half-width a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  background-color: deeppink;
+  color: aliceblue;
+  border-radius: 7px;
+}
+.half-width a:hover {
+  color: deeppink;
+  background-color: white;
+  border: 1px solid #000;
+  transition: ease 0.5;
+  transform: scale(1);
+}
+.biography {
+  background-image: url("./images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.latest-work {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 5%;
+}
+.latest-work h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.work-image img {
+  width: 29%;
+  float: left;
+  padding: 0 2%;
+}
+.work-image img:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+}
+
+.client {
+  text-align: center;
+  background-image: url("./images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.client-text {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.client .qutoes {
+  margin: 50px 50px;
+  padding: 0;
+}
+.client .qutoes::before {
+  content: "❝";
+  position: relative;
+  font-size: 35px;
+}
+.client .qutoes::after {
+  content: "❞";
+  position: relative;
+  font-size: 35px;
+}
+.client .email {
+  background-color: deeppink;
+  padding: 20px 30px;
+  margin: 0px 80px;
+  border-radius: 7px;
+  color: aliceblue;
+}
+
+footer h3 {
+  margin-top: 50px;
+  text-align: center;
+}
